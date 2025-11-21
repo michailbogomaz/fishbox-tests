@@ -1,0 +1,810 @@
+Logging in...
+Access token obtained successfully
+
+Starting file upload process...
+
+Processing file 1/100: fish_catch_test1.jpeg
+  File size: 522095 bytes
+  File hash: M1rtl5oLjoBumqsRtRTNPywXDrJuPG//OgYuxZdh0AI=
+  Presigned form hash: M1rtl5oLjoBumqsRtRTNPywXDrJuPG//OgYuxZdh0AI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 2/100: fish_catch_test2.jpeg
+  File size: 38194 bytes
+  File hash: FXNZ2X70frsYxQCKMCFaI6j97ud/NpnsMdBNyOUy+eg=
+  Presigned form hash: FXNZ2X70frsYxQCKMCFaI6j97ud/NpnsMdBNyOUy+eg=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 3/100: fish_catch_test3.jpeg
+  File size: 34583 bytes
+  File hash: J+anlXsgO9NGZXX8ZvUJA/HxEwxMTZJKd3udQaBilbU=
+  Presigned form hash: J+anlXsgO9NGZXX8ZvUJA/HxEwxMTZJKd3udQaBilbU=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 4/100: fish_catch_test4.jpeg
+  File size: 31509 bytes
+  File hash: HYFgDJZEy9kypJm/pWjLQJf3DqBmoJfxN+SfNzSP15M=
+  Presigned form hash: HYFgDJZEy9kypJm/pWjLQJf3DqBmoJfxN+SfNzSP15M=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 5/100: fish_catch_test5.jpeg
+  File size: 48469 bytes
+  File hash: vOXuJnJy1fYwJsBd1NZfJz/f63/FioF+96gfSKZPgXQ=
+  Presigned form hash: vOXuJnJy1fYwJsBd1NZfJz/f63/FioF+96gfSKZPgXQ=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 6/100: fish_catch_test6.jpeg
+  File size: 32484 bytes
+  File hash: i7nLahJMHp8rYd6ozwZUaBl+SKXQWcHf0H2pdtUvzHs=
+  Presigned form hash: i7nLahJMHp8rYd6ozwZUaBl+SKXQWcHf0H2pdtUvzHs=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 7/100: fish_catch_test7.jpeg
+  File size: 54794 bytes
+  File hash: 5CMcDE8dBTms5uwmv8cgc+4NZVYlXpNgHTH6LDhjpt4=
+  Presigned form hash: 5CMcDE8dBTms5uwmv8cgc+4NZVYlXpNgHTH6LDhjpt4=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 8/100: fish_catch_test8.jpeg
+  File size: 55849 bytes
+  File hash: NZR+/VTYNucasfqXMjYUaFRfgbDakxx2mou6wiqvAjE=
+  Presigned form hash: NZR+/VTYNucasfqXMjYUaFRfgbDakxx2mou6wiqvAjE=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 9/100: fish_catch_test9.jpeg
+  File size: 47356 bytes
+  File hash: xEqHVvCLdQxVf1MRrcEkQpCfCl+WB3r5ENwm7n5QDIA=
+  Presigned form hash: xEqHVvCLdQxVf1MRrcEkQpCfCl+WB3r5ENwm7n5QDIA=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 10/100: fish_catch_test10.jpeg
+  File size: 77982 bytes
+  File hash: qN4YWo9rU8UaS/Hc6N3o0W17GpoPAMNuJyXjtlDH+U0=
+  Presigned form hash: qN4YWo9rU8UaS/Hc6N3o0W17GpoPAMNuJyXjtlDH+U0=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 11/100: fish_catch_test11.jpeg
+  File size: 58066 bytes
+  File hash: gljbPvUwgxjnum52aTDug+vm5S3FIeXBnWRm1Xs4RE0=
+  Presigned form hash: gljbPvUwgxjnum52aTDug+vm5S3FIeXBnWRm1Xs4RE0=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 12/100: fish_catch_test12.jpeg
+  File size: 50372 bytes
+  File hash: ycSSkMbHjTXQn1CjakaGcDbRD7qliI1mFPY2KlodRE0=
+  Presigned form hash: ycSSkMbHjTXQn1CjakaGcDbRD7qliI1mFPY2KlodRE0=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 13/100: fish_catch_test13.jpeg
+  File size: 53557 bytes
+  File hash: ++J8hXdBWCZGtHKtW/Hlk6l7etQLHhZzcrgXPHvdMK4=
+  Presigned form hash: ++J8hXdBWCZGtHKtW/Hlk6l7etQLHhZzcrgXPHvdMK4=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 14/100: fish_catch_test14.jpeg
+  File size: 49049 bytes
+  File hash: uzUOIp/aNYx1U5EkCMktvtKLDSNE9OshX7qn5nYG7a4=
+  Presigned form hash: uzUOIp/aNYx1U5EkCMktvtKLDSNE9OshX7qn5nYG7a4=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 15/100: fish_catch_test15.jpeg
+  File size: 48881 bytes
+  File hash: xCjqe8/364TVlF6bIguJ6pSZB23rk7L1KwiPx63mcgY=
+  Presigned form hash: xCjqe8/364TVlF6bIguJ6pSZB23rk7L1KwiPx63mcgY=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 16/100: fish_catch_test16.jpeg
+  File size: 47850 bytes
+  File hash: Af+SvOPAZMj7pxpPnlff10/g/MtoQ+r/3gceem1CKKs=
+  Presigned form hash: Af+SvOPAZMj7pxpPnlff10/g/MtoQ+r/3gceem1CKKs=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 17/100: fish_catch_test17.jpeg
+  File size: 34323 bytes
+  File hash: C+mc22EnwsecBtBKiPkKI68GLZwam1LCW340LgIyxnE=
+  Presigned form hash: C+mc22EnwsecBtBKiPkKI68GLZwam1LCW340LgIyxnE=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 18/100: fish_catch_test18.jpeg
+  File size: 41235 bytes
+  File hash: 81KMMtPX8PmeExutTGMaYLoKsaxUZUb0mbRJKGGGGgA=
+  Presigned form hash: 81KMMtPX8PmeExutTGMaYLoKsaxUZUb0mbRJKGGGGgA=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 19/100: fish_catch_test19.jpeg
+  File size: 30449 bytes
+  File hash: HupNG2zWqOi5TG/3UyEmU1cEnUU+WBAUoX101y7x6o0=
+  Presigned form hash: HupNG2zWqOi5TG/3UyEmU1cEnUU+WBAUoX101y7x6o0=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 20/100: fish_catch_test20.jpeg
+  File size: 36850 bytes
+  File hash: jP5ZrS/jEgxDAFuEgPUQEvpBJNQTK58+OujVIvQ7Vqo=
+  Presigned form hash: jP5ZrS/jEgxDAFuEgPUQEvpBJNQTK58+OujVIvQ7Vqo=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 21/100: fish_catch_test21.jpeg
+  File size: 33696 bytes
+  File hash: etEX2voAn0xGg5md2EvQHPlcUFtaBIQs/t+U6F1gr4Q=
+  Presigned form hash: etEX2voAn0xGg5md2EvQHPlcUFtaBIQs/t+U6F1gr4Q=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 22/100: fish_catch_test22.jpeg
+  File size: 44992 bytes
+  File hash: 3AhkGM0KM78GfHSYmr6Fj0Q52juF4YL5eqxiUDlzgUI=
+  Presigned form hash: 3AhkGM0KM78GfHSYmr6Fj0Q52juF4YL5eqxiUDlzgUI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 23/100: fish_catch_test23.jpeg
+  File size: 34124 bytes
+  File hash: FCQtn8Ih0fZyXhP0xDlHsSG5YgZsBFQkE4amWKoA/+I=
+  Presigned form hash: FCQtn8Ih0fZyXhP0xDlHsSG5YgZsBFQkE4amWKoA/+I=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 24/100: fish_catch_test24.jpeg
+  File size: 40484 bytes
+  File hash: k/PVM18KGwEzKTfHnn4yXeXQ3CCsOi4lQ4CfwxmcG7E=
+  Presigned form hash: k/PVM18KGwEzKTfHnn4yXeXQ3CCsOi4lQ4CfwxmcG7E=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 25/100: fish_catch_test25.jpeg
+  File size: 35138 bytes
+  File hash: 4wtZ3hYWX3yMmNrhIFVbo9x/WHvo7NIabiX/GjyJcRs=
+  Presigned form hash: 4wtZ3hYWX3yMmNrhIFVbo9x/WHvo7NIabiX/GjyJcRs=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 26/100: fish_catch_test26.jpeg
+  File size: 22263 bytes
+  File hash: W/5U06OG/ZQzOfK82pyjc0jiWzcT3GjqSIG4xvo+zDY=
+  Presigned form hash: W/5U06OG/ZQzOfK82pyjc0jiWzcT3GjqSIG4xvo+zDY=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 27/100: fish_catch_test27.jpeg
+  File size: 47333 bytes
+  File hash: XTgJLF45pwG8duORaZo3BoQfYQViTr87grV7fSqEA10=
+  Presigned form hash: XTgJLF45pwG8duORaZo3BoQfYQViTr87grV7fSqEA10=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 28/100: fish_catch_test28.jpeg
+  File size: 39562 bytes
+  File hash: OVV++vaRcceuX4e0heIMDwtLzvRPzyPS4zlxKCJ5ce0=
+  Presigned form hash: OVV++vaRcceuX4e0heIMDwtLzvRPzyPS4zlxKCJ5ce0=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 29/100: fish_catch_test29.jpeg
+  File size: 69072 bytes
+  File hash: xTfr0JpAqMI2VKHgh9XRKxljuvDz7L4qlpNlAWaVvyI=
+  Presigned form hash: xTfr0JpAqMI2VKHgh9XRKxljuvDz7L4qlpNlAWaVvyI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 30/100: fish_catch_test30.jpeg
+  File size: 48769 bytes
+  File hash: C3y6xp9SXXIlYjkDsfTIMJlyoFqQbQ7qB77rXjzPQ4s=
+  Presigned form hash: C3y6xp9SXXIlYjkDsfTIMJlyoFqQbQ7qB77rXjzPQ4s=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 31/100: fish_catch_test31.jpeg
+  File size: 42443 bytes
+  File hash: 591b79Du3Z0HP13gi8PxceOH0sTSFC+qx4Wc3H/7/0I=
+  Presigned form hash: 591b79Du3Z0HP13gi8PxceOH0sTSFC+qx4Wc3H/7/0I=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 32/100: fish_catch_test32.jpeg
+  File size: 41370 bytes
+  File hash: ldNA3nTrGs24UaupcAlbXfE40guyLfrDz+Etkh1Bv/g=
+  Presigned form hash: ldNA3nTrGs24UaupcAlbXfE40guyLfrDz+Etkh1Bv/g=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 33/100: fish_catch_test33.jpeg
+  File size: 73170 bytes
+  File hash: HmCAkae9HscV02bZql3iy9mWiVcnh4Oy5DvecZaNyMg=
+  Presigned form hash: HmCAkae9HscV02bZql3iy9mWiVcnh4Oy5DvecZaNyMg=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 34/100: fish_catch_test34.jpeg
+  File size: 29456 bytes
+  File hash: qIYRlJKIdp063apmWwdcYC2TarmUpi2Owu9tJbr8t2o=
+  Presigned form hash: qIYRlJKIdp063apmWwdcYC2TarmUpi2Owu9tJbr8t2o=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 35/100: fish_catch_test35.jpeg
+  File size: 28239 bytes
+  File hash: LYBRMNyTRdQRKb/P0e33hJdbk03jS1BI0t6MiV2PASY=
+  Presigned form hash: LYBRMNyTRdQRKb/P0e33hJdbk03jS1BI0t6MiV2PASY=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 36/100: fish_catch_test36.jpeg
+  File size: 27198 bytes
+  File hash: xLvugpGoOdacj6NbYZiMXN+V3c482eMOlkNT5rDn9Zo=
+  Presigned form hash: xLvugpGoOdacj6NbYZiMXN+V3c482eMOlkNT5rDn9Zo=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 37/100: fish_catch_test37.jpeg
+  File size: 22812 bytes
+  File hash: 1ya02wuiAOiPoiPCTALb7ls9UMKv6v5pCcNE2aRDmSU=
+  Presigned form hash: 1ya02wuiAOiPoiPCTALb7ls9UMKv6v5pCcNE2aRDmSU=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 38/100: fish_catch_test38.jpeg
+  File size: 99803 bytes
+  File hash: YtmL+2g8MoZXI7azO/vV11UQrBNrEGO/Oz34kqvuH5o=
+  Presigned form hash: YtmL+2g8MoZXI7azO/vV11UQrBNrEGO/Oz34kqvuH5o=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 39/100: fish_catch_test39.jpeg
+  File size: 58523 bytes
+  File hash: NGZdLfos9Zg3D10klUXHDPLmSJLdMYKT9HTZfd5kJV4=
+  Presigned form hash: NGZdLfos9Zg3D10klUXHDPLmSJLdMYKT9HTZfd5kJV4=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 40/100: fish_catch_test40.jpeg
+  File size: 27495 bytes
+  File hash: eruNKE2jm631L9hch9NN/AUDnxfaC8ub5p3a9B6m+zs=
+  Presigned form hash: eruNKE2jm631L9hch9NN/AUDnxfaC8ub5p3a9B6m+zs=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 41/100: fish_catch_test41.jpeg
+  File size: 28415 bytes
+  File hash: QJ0ztITkMPXme78Sjq9KcqPgnPTWCIC+g1wqZKFv8cQ=
+  Presigned form hash: QJ0ztITkMPXme78Sjq9KcqPgnPTWCIC+g1wqZKFv8cQ=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 42/100: fish_catch_test42.jpeg
+  File size: 42851 bytes
+  File hash: +7SqGmB+V5m8ZEYr/fRfDnPOBJZXa69F+BvGrafmiII=
+  Presigned form hash: +7SqGmB+V5m8ZEYr/fRfDnPOBJZXa69F+BvGrafmiII=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 43/100: fish_catch_test43.jpeg
+  File size: 52941 bytes
+  File hash: IX1jX7Fec7FY+W6cnW/RNTMkgIBMV7XXxhHIBuTPy5E=
+  Presigned form hash: IX1jX7Fec7FY+W6cnW/RNTMkgIBMV7XXxhHIBuTPy5E=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 44/100: fish_catch_test44.jpeg
+  File size: 59877 bytes
+  File hash: am5IKP/2J8N3AXVeuuTTmSPqD8Wn+9icnB6A2ZebntQ=
+  Presigned form hash: am5IKP/2J8N3AXVeuuTTmSPqD8Wn+9icnB6A2ZebntQ=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 45/100: fish_catch_test45.jpeg
+  File size: 41791 bytes
+  File hash: pxBvMg/sA1zABZT80Zku/2fEE06p5abj4fRfBCTucP4=
+  Presigned form hash: pxBvMg/sA1zABZT80Zku/2fEE06p5abj4fRfBCTucP4=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 46/100: fish_catch_test46.jpeg
+  File size: 21037 bytes
+  File hash: bX7uiJ81p9UeL9kr5J3Y7P7ZRXI5rIcDadGLVE9z3us=
+  Presigned form hash: bX7uiJ81p9UeL9kr5J3Y7P7ZRXI5rIcDadGLVE9z3us=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 47/100: fish_catch_test47.jpeg
+  File size: 58773 bytes
+  File hash: vFvsI6vsX8MvbfkkBrWGjxcbX+sFFKowG7hIcyrs+FY=
+  Presigned form hash: vFvsI6vsX8MvbfkkBrWGjxcbX+sFFKowG7hIcyrs+FY=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 48/100: fish_catch_test48.jpeg
+  File size: 42920 bytes
+  File hash: WI/8hqv9Vs7qWa/UW3vbXswFmSdaZtnOZR6HJWUHAPw=
+  Presigned form hash: WI/8hqv9Vs7qWa/UW3vbXswFmSdaZtnOZR6HJWUHAPw=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 49/100: fish_catch_test49.jpeg
+  File size: 38604 bytes
+  File hash: TBgZBNRdTFnONfxw9XgT1wkyT4fs/8Z3yIx4f730uxw=
+  Presigned form hash: TBgZBNRdTFnONfxw9XgT1wkyT4fs/8Z3yIx4f730uxw=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 50/100: fish_catch_test50.jpeg
+  File size: 84513 bytes
+  File hash: U9uF7kMXu/buNS9QZW3IADkPUSafLyAW08QQiQOxg78=
+  Presigned form hash: U9uF7kMXu/buNS9QZW3IADkPUSafLyAW08QQiQOxg78=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 51/100: fish_catch_test51.jpeg
+  File size: 54091 bytes
+  File hash: klWpH1H4+kFggORXd6B5rKEV95Eutdj04HzDusQW/pI=
+  Presigned form hash: klWpH1H4+kFggORXd6B5rKEV95Eutdj04HzDusQW/pI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 52/100: fish_catch_test52.jpeg
+  File size: 75904 bytes
+  File hash: QtsUAPxxyw0A6ShPFwAOdDB2994fO8jwDOk464yOfos=
+  Presigned form hash: QtsUAPxxyw0A6ShPFwAOdDB2994fO8jwDOk464yOfos=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 53/100: fish_catch_test53.jpeg
+  File size: 59585 bytes
+  File hash: Ub+zQoEnpQ75hWGpQdWULnU62cJWk5daTM7CUebKW70=
+  Presigned form hash: Ub+zQoEnpQ75hWGpQdWULnU62cJWk5daTM7CUebKW70=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 54/100: fish_catch_test54.jpeg
+  File size: 40292 bytes
+  File hash: +mDquIEOP/I9DZ0q5G+wKsxmom7H6QiAFbfGTaE0RSY=
+  Presigned form hash: +mDquIEOP/I9DZ0q5G+wKsxmom7H6QiAFbfGTaE0RSY=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 55/100: fish_catch_test55.jpeg
+  File size: 48211 bytes
+  File hash: oTik87LXCa64yBZMwRYxJySWxzV8mBhbDlNyUa6ntOo=
+  Presigned form hash: oTik87LXCa64yBZMwRYxJySWxzV8mBhbDlNyUa6ntOo=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 56/100: fish_catch_test56.jpeg
+  File size: 39432 bytes
+  File hash: HRDQuBFE8Dq8r7HXxhiD38NMFhAX5k769W3KeEa+ABI=
+  Presigned form hash: HRDQuBFE8Dq8r7HXxhiD38NMFhAX5k769W3KeEa+ABI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 57/100: fish_catch_test57.jpeg
+  File size: 33473 bytes
+  File hash: owvo0PIe08HCgRTCmoEeMuDWDkRxpp2jaEKWG9hdMCM=
+  Presigned form hash: owvo0PIe08HCgRTCmoEeMuDWDkRxpp2jaEKWG9hdMCM=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 58/100: fish_catch_test58.jpeg
+  File size: 32963 bytes
+  File hash: YLxB09V8fil3//1lcwyHNXbcbGI8bNlmBrLZy8tLvnY=
+  Presigned form hash: YLxB09V8fil3//1lcwyHNXbcbGI8bNlmBrLZy8tLvnY=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 59/100: fish_catch_test59.jpeg
+  File size: 32859 bytes
+  File hash: ylyWNu0cOpwr8LkzhypB69KTRR97e8On8rY0h0XdZdA=
+  Presigned form hash: ylyWNu0cOpwr8LkzhypB69KTRR97e8On8rY0h0XdZdA=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 60/100: fish_catch_test60.jpeg
+  File size: 55848 bytes
+  File hash: bjVwd5eemhAiKr0XdtN/Nnv6TgdArNDhNumVcNCmmPI=
+  Presigned form hash: bjVwd5eemhAiKr0XdtN/Nnv6TgdArNDhNumVcNCmmPI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 61/100: fish_catch_test61.jpeg
+  File size: 29201 bytes
+  File hash: y7bZsitU61irEvLMoWbIqMXq8sAOa36CYkjxJVsRkkE=
+  Presigned form hash: y7bZsitU61irEvLMoWbIqMXq8sAOa36CYkjxJVsRkkE=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 62/100: fish_catch_test62.jpeg
+  File size: 40775 bytes
+  File hash: bwtpoTgPEMJWSdhcaW0Xj1V0Vf7ShguFlptAxjufkFs=
+  Presigned form hash: bwtpoTgPEMJWSdhcaW0Xj1V0Vf7ShguFlptAxjufkFs=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 63/100: fish_catch_test63.jpeg
+  File size: 37765 bytes
+  File hash: ks4IJa12EQosAyxnd0uEjIkh5P0aFAnVnqmFyivnn3g=
+  Presigned form hash: ks4IJa12EQosAyxnd0uEjIkh5P0aFAnVnqmFyivnn3g=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 64/100: fish_catch_test64.jpeg
+  File size: 51604 bytes
+  File hash: TfBfCJB8SHPUO7+J1tDWjMFqxbjsbbcADb3SuTE0uco=
+  Presigned form hash: TfBfCJB8SHPUO7+J1tDWjMFqxbjsbbcADb3SuTE0uco=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 65/100: fish_catch_test65.jpeg
+  File size: 33142 bytes
+  File hash: khRZGKz2aBVYnzBC3A0kjfd1tsmp36FFP89AFO2HAYM=
+  Presigned form hash: khRZGKz2aBVYnzBC3A0kjfd1tsmp36FFP89AFO2HAYM=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 66/100: fish_catch_test66.jpeg
+  File size: 42813 bytes
+  File hash: 1DwJTc0WDy/ZQpakMbldEMcf0hre/hJl2NpL3EjWK4g=
+  Presigned form hash: 1DwJTc0WDy/ZQpakMbldEMcf0hre/hJl2NpL3EjWK4g=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 67/100: fish_catch_test67.jpeg
+  File size: 58395 bytes
+  File hash: b4o15TTGdwBqw9grUZt2lpnHb92WX9/cJ7QpAmZPnqk=
+  Presigned form hash: b4o15TTGdwBqw9grUZt2lpnHb92WX9/cJ7QpAmZPnqk=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 68/100: fish_catch_test68.jpeg
+  File size: 38575 bytes
+  File hash: ywoVT1NsRF1X42RlsLYI3X9gLD1p+E/+10yf9BbSIC4=
+  Presigned form hash: ywoVT1NsRF1X42RlsLYI3X9gLD1p+E/+10yf9BbSIC4=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 69/100: fish_catch_test69.jpeg
+  File size: 71372 bytes
+  File hash: OcjaPkDTNxUH0oKzqHUSb7FWQKtWxniF9L/0YwMesbc=
+  Presigned form hash: OcjaPkDTNxUH0oKzqHUSb7FWQKtWxniF9L/0YwMesbc=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 70/100: fish_catch_test70.jpeg
+  File size: 63760 bytes
+  File hash: FuiZTo7x/R948dJxESAtHwzveEbmRruHYEX9XcGhzPA=
+  Presigned form hash: FuiZTo7x/R948dJxESAtHwzveEbmRruHYEX9XcGhzPA=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 71/100: fish_catch_test71.jpeg
+  File size: 67438 bytes
+  File hash: nvkSuPiC/PCmVTDTT0jM1H04hChY0x6aySZQtD0rWsI=
+  Presigned form hash: nvkSuPiC/PCmVTDTT0jM1H04hChY0x6aySZQtD0rWsI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 72/100: fish_catch_test72.jpeg
+  File size: 40231 bytes
+  File hash: 98YkvukBGWjLj5oTO/GxVsliXgXGcsBKkNC2ELEz1rs=
+  Presigned form hash: 98YkvukBGWjLj5oTO/GxVsliXgXGcsBKkNC2ELEz1rs=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 73/100: fish_catch_test73.jpeg
+  File size: 50806 bytes
+  File hash: SJvxQwmnsed+UB/DeKG/OTuN4rSteHVEaz8VAfCsfNM=
+  Presigned form hash: SJvxQwmnsed+UB/DeKG/OTuN4rSteHVEaz8VAfCsfNM=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 74/100: fish_catch_test74.jpeg
+  File size: 33448 bytes
+  File hash: lIIGIuRrCBaeodZFuo+WgEDHt9cC0XMT5F6r+VpdFe4=
+  Presigned form hash: lIIGIuRrCBaeodZFuo+WgEDHt9cC0XMT5F6r+VpdFe4=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 75/100: fish_catch_test75.jpeg
+  File size: 32735 bytes
+  File hash: wqDcc6Xq3+185hW3DmesJjlfd7K2Q5gcc77hbMsg7Q8=
+  Presigned form hash: wqDcc6Xq3+185hW3DmesJjlfd7K2Q5gcc77hbMsg7Q8=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 76/100: fish_catch_test76.jpeg
+  File size: 29943 bytes
+  File hash: 1hKfX3fnkghQdb2K0WH8nk+6xAx+z887lApkOUuesiU=
+  Presigned form hash: 1hKfX3fnkghQdb2K0WH8nk+6xAx+z887lApkOUuesiU=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 77/100: fish_catch_test77.jpeg
+  File size: 40714 bytes
+  File hash: O8287Ptqo6H3at9IzeCrIttWuj9fgrOCv5C57E/xVtw=
+  Presigned form hash: O8287Ptqo6H3at9IzeCrIttWuj9fgrOCv5C57E/xVtw=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 78/100: fish_catch_test78.jpeg
+  File size: 29423 bytes
+  File hash: bD8+9SYbBK95dKWfMoeGOHlw5xwJ+x/n0PBgCNEEwTc=
+  Presigned form hash: bD8+9SYbBK95dKWfMoeGOHlw5xwJ+x/n0PBgCNEEwTc=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 79/100: fish_catch_test79.jpeg
+  File size: 64946 bytes
+  File hash: TZFQK8qNJwaVaw6UckAE7C+7iBmAODh1iUTj8cpe8mA=
+  Presigned form hash: TZFQK8qNJwaVaw6UckAE7C+7iBmAODh1iUTj8cpe8mA=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 80/100: fish_catch_test80.jpeg
+  File size: 21857 bytes
+  File hash: d3ye/G5PkaYPfqQK/jsnw/OvsUCxcdOpqqOXmZnkqkQ=
+  Presigned form hash: d3ye/G5PkaYPfqQK/jsnw/OvsUCxcdOpqqOXmZnkqkQ=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 81/100: fish_catch_test81.jpeg
+  File size: 43989 bytes
+  File hash: QKxPpJSJTmMkGFbPBgm8CpsutwVqv99UqekeFLtut9g=
+  Presigned form hash: QKxPpJSJTmMkGFbPBgm8CpsutwVqv99UqekeFLtut9g=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 82/100: fish_catch_test82.jpeg
+  File size: 38442 bytes
+  File hash: IvnTV9evGhEsDMn8jrDsrfW5Cf5ht61MQlN1w2r766g=
+  Presigned form hash: IvnTV9evGhEsDMn8jrDsrfW5Cf5ht61MQlN1w2r766g=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 83/100: fish_catch_test83.jpeg
+  File size: 31283 bytes
+  File hash: tHi/SncPfPeubOd1BbDFuCw8FKT7+QvHWOt36TIYbUg=
+  Presigned form hash: tHi/SncPfPeubOd1BbDFuCw8FKT7+QvHWOt36TIYbUg=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 84/100: fish_catch_test84.jpeg
+  File size: 28120 bytes
+  File hash: +lgIkKFtoVuDhEuT6jkBcBfhvfW0s9z6MQhGYhpodbU=
+  Presigned form hash: +lgIkKFtoVuDhEuT6jkBcBfhvfW0s9z6MQhGYhpodbU=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 85/100: fish_catch_test85.jpeg
+  File size: 51958 bytes
+  File hash: 0QD2AgYND1M2FWZqrb5Ls3IHHFT2cYVU1bgqSPqr5/E=
+  Presigned form hash: 0QD2AgYND1M2FWZqrb5Ls3IHHFT2cYVU1bgqSPqr5/E=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 86/100: fish_catch_test86.jpeg
+  File size: 51398 bytes
+  File hash: xmg/8Aozkr6ihKGQWyrmHfIYabnywTxguaKpaxKYzp0=
+  Presigned form hash: xmg/8Aozkr6ihKGQWyrmHfIYabnywTxguaKpaxKYzp0=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 87/100: fish_catch_test87.jpeg
+  File size: 38218 bytes
+  File hash: DdaZWVeCdq7WCTEo3Rah0vTIrD7tTdR63eQbkFFeZYY=
+  Presigned form hash: DdaZWVeCdq7WCTEo3Rah0vTIrD7tTdR63eQbkFFeZYY=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 88/100: fish_catch_test88.jpeg
+  File size: 26796 bytes
+  File hash: ysuapY+QjGK1bRhE+InY35bk0LHF3Mdyvs5F/DKd5hU=
+  Presigned form hash: ysuapY+QjGK1bRhE+InY35bk0LHF3Mdyvs5F/DKd5hU=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 89/100: fish_catch_test89.jpeg
+  File size: 38194 bytes
+  File hash: FXNZ2X70frsYxQCKMCFaI6j97ud/NpnsMdBNyOUy+eg=
+  Presigned form hash: FXNZ2X70frsYxQCKMCFaI6j97ud/NpnsMdBNyOUy+eg=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 90/100: fish_catch_test90.jpeg
+  File size: 21037 bytes
+  File hash: bX7uiJ81p9UeL9kr5J3Y7P7ZRXI5rIcDadGLVE9z3us=
+  Presigned form hash: bX7uiJ81p9UeL9kr5J3Y7P7ZRXI5rIcDadGLVE9z3us=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 91/100: fish_catch_test91.jpeg
+  File size: 38604 bytes
+  File hash: TBgZBNRdTFnONfxw9XgT1wkyT4fs/8Z3yIx4f730uxw=
+  Presigned form hash: TBgZBNRdTFnONfxw9XgT1wkyT4fs/8Z3yIx4f730uxw=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 92/100: fish_catch_test92.jpeg
+  File size: 50806 bytes
+  File hash: SJvxQwmnsed+UB/DeKG/OTuN4rSteHVEaz8VAfCsfNM=
+  Presigned form hash: SJvxQwmnsed+UB/DeKG/OTuN4rSteHVEaz8VAfCsfNM=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 93/100: fish_catch_test93.jpeg
+  File size: 71372 bytes
+  File hash: OcjaPkDTNxUH0oKzqHUSb7FWQKtWxniF9L/0YwMesbc=
+  Presigned form hash: OcjaPkDTNxUH0oKzqHUSb7FWQKtWxniF9L/0YwMesbc=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 94/100: fish_catch_test94.jpeg
+  File size: 33448 bytes
+  File hash: lIIGIuRrCBaeodZFuo+WgEDHt9cC0XMT5F6r+VpdFe4=
+  Presigned form hash: lIIGIuRrCBaeodZFuo+WgEDHt9cC0XMT5F6r+VpdFe4=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 95/100: fish_catch_test95.jpeg
+  File size: 77982 bytes
+  File hash: qN4YWo9rU8UaS/Hc6N3o0W17GpoPAMNuJyXjtlDH+U0=
+  Presigned form hash: qN4YWo9rU8UaS/Hc6N3o0W17GpoPAMNuJyXjtlDH+U0=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 96/100: fish_catch_test96.jpeg
+  File size: 54091 bytes
+  File hash: klWpH1H4+kFggORXd6B5rKEV95Eutdj04HzDusQW/pI=
+  Presigned form hash: klWpH1H4+kFggORXd6B5rKEV95Eutdj04HzDusQW/pI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 97/100: fish_catch_test97.jpeg
+  File size: 67438 bytes
+  File hash: nvkSuPiC/PCmVTDTT0jM1H04hChY0x6aySZQtD0rWsI=
+  Presigned form hash: nvkSuPiC/PCmVTDTT0jM1H04hChY0x6aySZQtD0rWsI=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 98/100: fish_catch_test98.jpeg
+  File size: 37765 bytes
+  File hash: ks4IJa12EQosAyxnd0uEjIkh5P0aFAnVnqmFyivnn3g=
+  Presigned form hash: ks4IJa12EQosAyxnd0uEjIkh5P0aFAnVnqmFyivnn3g=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 99/100: fish_catch_test99.jpeg
+  File size: 34583 bytes
+  File hash: J+anlXsgO9NGZXX8ZvUJA/HxEwxMTZJKd3udQaBilbU=
+  Presigned form hash: J+anlXsgO9NGZXX8ZvUJA/HxEwxMTZJKd3udQaBilbU=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Processing file 100/100: fish_catch_test100.jpeg
+  File size: 71372 bytes
+  File hash: OcjaPkDTNxUH0oKzqHUSb7FWQKtWxniF9L/0YwMesbc=
+  Presigned form hash: OcjaPkDTNxUH0oKzqHUSb7FWQKtWxniF9L/0YwMesbc=
+  Hash matches ✓
+  Uploading file to presigned URL...
+  File uploaded successfully (HTTP 204)
+
+Upload process completed!
+Results saved to: /Users/mbogomaz/shared/fishbox/bff-graphql-service/.cursor/tests/scripts/upload-files/prod-uploaded-files.csv
+
+Summary:
+ 100 uploaded

@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+
+
+# temp directory
+.temp
+.tmp
+
+tests/scripts/files_count/out
+*.log

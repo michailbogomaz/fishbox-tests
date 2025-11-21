@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Просмотр и удаление изображений</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f5f5f5;
+      }
+      .header {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      .header h1 {
+        margin: 0 0 10px 0;
+        color: #333;
+      }
+      .controls {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+        flex-wrap: wrap;
+      }
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .btn-select-all {
+        background: #4285f4;
+        color: white;
+      }
+      .btn-deselect-all {
+        background: #34a853;
+        color: white;
+      }
+      .btn-delete {
+        background: #ea4335;
+        color: white;
+      }
+      .btn-delete:hover {
+        background: #d33b2c;
+      }
+      .btn-delete:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+      }
+      .info {
+        background: #fff3cd;
+        border: 1px solid #ffc107;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 13px;
+      }
+      .command-box {
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        padding: 10px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-family: monospace;
+        font-size: 12px;
+        word-break: break-all;
+        display: none;
+      }
+      .command-box.show {
+        display: block;
+      }
+      .copy-btn {
+        background: #6c757d;
+        color: white;
+        padding: 5px 10px;
+        font-size: 12px;
+        margin-top: 5px;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .image-item {
+        background: white;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: relative;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+      .image-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .image-item.selected {
+        border: 3px solid #ea4335;
+        background: #fff5f5;
+      }
+      .image-item input[type='checkbox'] {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        z-index: 10;
+      }
+      .image-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+      .image-item .filename {
+        font-size: 12px;
+        color: #666;
+        word-break: break-all;
+        margin-top: 5px;
+      }
+      .stats {
+        color: #666;
+        font-size: 14px;
+        margin-top: 10px;
+      }
+      .empty {
+        text-align: center;
+        padding: 40px;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Просмотр и удаление изображений</h1>
+      <div class="stats" id="stats">
+        Всего файлов: <span id="total-count">0</span> | Выбрано:
+        <span id="selected-count">0</span>
+      </div>
+      <div class="controls">
+        <button class="btn-select-all" onclick="selectAll()">
+          Выбрать все
+        </button>
+        <button class="btn-deselect-all" onclick="deselectAll()">
+          Снять выбор
+        </button>
+        <button
+          class="btn-delete"
+          id="deleteBtn"
+          onclick="deleteSelected()"
+          disabled
+        >
+          Удалить выбранные (<span id="delete-count">0</span>)
+        </button>
+      </div>
+      <div class="info">
+        <strong>Примечание:</strong> Браузер не может напрямую удалять файлы с
+        диска из-за ограничений безопасности. Команда для удаления будет
+        сгенерирована ниже.
+      </div>
+      <div class="command-box" id="commandBox">
+        <strong
+          >Выполните эту команду в терминале для удаления выбранных
+          файлов:</strong
+        >
+        <div id="commandText" style="margin: 10px 0"></div>
+        <button class="copy-btn" onclick="copyCommand()">
+          Копировать команду
+        </button>
+      </div>
+    </div>
+    <div class="container" id="images-container">
+      <div class="empty">Загрузка изображений...</div>
+    </div>
+
+    <script>
+      const FILES_DIR = './files/';
+      const imageExtensions = [
+        '.jpg',
+        '.jpeg',
+        '.png',
+        '.gif',
+        '.webp',
+        '.JPG',
+        '.JPEG',
+        '.PNG',
+      ];
+      let selectedFiles = new Set();
+
+      // List of image files (you need to update this list)
+      // For security reasons, we'll use a predefined list or fetch from a server
+      // Since we can't list directory from HTML, we'll need to either:
+      // 1. Use a server-side script to list files
+      // 2. Manually maintain the list
+      // 3. Use File System Access API (limited browser support)
+
+      // Try to get file list from a simple endpoint or use File System Access API
+      async function loadImages() {
+        const container = document.getElementById('images-container');
+        container.innerHTML =
+          '<div class="empty">Загрузка списка файлов...</div>';
+
+        // Method 1: Try to use File System Access API (Chrome/Edge only)
+        if ('showDirectoryPicker' in window) {
+          try {
+            const dirHandle = await window.showDirectoryPicker();
+            await loadImagesFromDirectory(dirHandle);
+            return;
+          } catch (e) {
+            console.log('Directory picker cancelled or not supported');
+          }
+        }
+
+        // Method 2: Try to fetch file list from a server endpoint
+        // This would require a simple server script
+        try {
+          const response = await fetch('./list_files.json');
+          if (response.ok) {
+            const files = await response.json();
+            displayImages(files);
+            return;
+          }
+        } catch (e) {
+          console.log('No server endpoint available');
+        }
+
+        // Method 3: Manual list - user needs to update this
+        // For now, we'll try to detect images by attempting to load them
+        loadImagesByGuessing();
+      }
+
+      async function loadImagesFromDirectory(dirHandle) {
+        const files = [];
+        for await (const entry of dirHandle.values()) {
+          if (entry.kind === 'file') {
+            const name = entry.name;
+            if (
+              imageExtensions.some((ext) => name.toLowerCase().endsWith(ext))
+            ) {
+              const file = await entry.getFile();
+              files.push({
+                name: name,
+                url: URL.createObjectURL(file),
+              });
+            }
+          }
+        }
+        displayImages(files);
+      }
+
+      async function loadImagesByGuessing() {
+        // Try to load list_files.json first
+        try {
+          const response = await fetch('./list_files.json');
+          if (response.ok) {
+            const files = await response.json();
+            displayImages(files);
+            return;
+          }
+        } catch (e) {
+          console.log('list_files.json not found, trying to detect files...');
+        }
+
+        // Try to get all files from the directory using fetch
+        // Since we can't list directory directly, we'll try common patterns
+        const files = [];
+        const checkedFiles = new Set();
+
+        // Generate file names using pattern: fish_catch_test1.jpeg to fish_catch_test100.jpeg
+        const allNames = [];
+        for (let i = 1; i <= 100; i++) {
+          allNames.push(`fish_catch_test${i}.jpeg`);
+        }
+        let checked = 0;
+        const totalToCheck = allNames.length;
+
+        console.log(`Checking ${totalToCheck} potential files...`);
+
+        allNames.forEach((filename) => {
+          if (checkedFiles.has(filename)) return;
+          checkedFiles.add(filename);
+
+          const img = new Image();
+          img.onload = function () {
+            files.push({
+              name: filename,
+              url: FILES_DIR + filename,
+            });
+            checked++;
+            console.log(
+              `Found: ${filename} (${files.length}/${checked}/${totalToCheck})`,
+            );
+            if (checked === totalToCheck) {
+              console.log(`Total found: ${files.length} files`);
+              displayImages(files);
+            }
+          };
+          img.onerror = function () {
+            checked++;
+            if (checked === totalToCheck) {
+              console.log(`Total found: ${files.length} files`);
+              displayImages(files);
+            }
+          };
+          // Add timestamp to avoid cache issues
+          img.src = FILES_DIR + filename + '?t=' + Date.now();
+        });
+      }
+
+      function displayImages(files) {
+        const container = document.getElementById('images-container');
+        const totalCount = document.getElementById('total-count');
+
+        if (files.length === 0) {
+          container.innerHTML =
+            '<div class="empty">Изображения не найдены</div>';
+          totalCount.textContent = '0';
+          return;
+        }
+
+        totalCount.textContent = files.length;
+        container.innerHTML = '';
+
+        files.forEach((file) => {
+          const item = document.createElement('div');
+          item.className = 'image-item';
+          item.dataset.filename = file.name;
+
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.onchange = function () {
+            if (this.checked) {
+              selectedFiles.add(file.name);
+            } else {
+              selectedFiles.delete(file.name);
+            }
+            updateSelection();
+          };
+
+          const img = document.createElement('img');
+          img.src = file.url;
+          img.alt = file.name;
+          img.onclick = function () {
+            checkbox.checked = !checkbox.checked;
+            checkbox.dispatchEvent(new Event('change'));
+          };
+
+          const filename = document.createElement('div');
+          filename.className = 'filename';
+          filename.textContent = file.name;
+
+          item.appendChild(checkbox);
+          item.appendChild(img);
+          item.appendChild(filename);
+          container.appendChild(item);
+        });
+      }
+
+      function selectAll() {
+        document
+          .querySelectorAll('.image-item input[type="checkbox"]')
+          .forEach((cb) => {
+            cb.checked = true;
+            const filename = cb.closest('.image-item').dataset.filename;
+            selectedFiles.add(filename);
+          });
+        updateSelection();
+      }
+
+      function deselectAll() {
+        document
+          .querySelectorAll('.image-item input[type="checkbox"]')
+          .forEach((cb) => {
+            cb.checked = false;
+          });
+        selectedFiles.clear();
+        updateSelection();
+      }
+
+      function updateSelection() {
+        const selectedCount = document.getElementById('selected-count');
+        const deleteCount = document.getElementById('delete-count');
+        const deleteBtn = document.getElementById('deleteBtn');
+
+        selectedCount.textContent = selectedFiles.size;
+        deleteCount.textContent = selectedFiles.size;
+        deleteBtn.disabled = selectedFiles.size === 0;
+
+        // Update visual selection
+        document.querySelectorAll('.image-item').forEach((item) => {
+          const filename = item.dataset.filename;
+          if (selectedFiles.has(filename)) {
+            item.classList.add('selected');
+          } else {
+            item.classList.remove('selected');
+          }
+        });
+      }
+
+      function deleteSelected() {
+        if (selectedFiles.size === 0) return;
+
+        const files = Array.from(selectedFiles);
+        // Get the correct path to files directory
+        const currentPath = window.location.pathname;
+        const filesPath = currentPath.replace(/\/[^/]*\.html$/, '/files');
+        const command = `cd "${filesPath}" && rm -f ${files.map((f) => `"${f}"`).join(' ')}`;
+
+        const commandBox = document.getElementById('commandBox');
+        const commandText = document.getElementById('commandText');
+        commandText.textContent = command;
+        commandBox.classList.add('show');
+
+        // Scroll to command box
+        commandBox.scrollIntoView({ behavior: 'smooth' });
+      }
+
+      function copyCommand() {
+        const commandText = document.getElementById('commandText').textContent;
+        navigator.clipboard.writeText(commandText).then(() => {
+          alert('Команда скопирована в буфер обмена!');
+        });
+      }
+
+      // Load images on page load
+      loadImages();
+    </script>
+  </body>
+</html>
