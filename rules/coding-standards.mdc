@@ -1,0 +1,110 @@
+---
+alwaysApply: true
+---
+
+# Coding Standards
+
+## General Rules
+
+### Language & Comments
+
+- All comments in code must be in **English only** (no Russian/Cyrillic)
+- Use lowercase with dots for log messages: `user.created.successfully: ${userId}`
+
+### TypeScript
+
+- **No `any` types** (exception: `@Payload() payload: Record<string, any>`)
+- **No `console.log`** in production code (only `console.error` for specific errors)
+- All functions must have **explicit return types** (exception: `bootstrap()` in `main.ts`)
+- All parameters must be **typed**
+- All magic numbers must be **constants**
+- Use **2 spaces** for indentation (not tabs, not 4 spaces)
+- Remove all **unused imports**
+- `tsconfig.json` must have `"target": "ES2024"`
+
+### UUID Import
+
+```typescript
+import { v7 as uuidv7 } from 'uuid';
+```
+
+## NestJS Architecture
+
+### Business Logic
+
+- All business logic must be in **services only**
+- Controllers handle HTTP layer only
+
+### HTTP Exceptions
+
+- **Never throw HTTP exceptions** (BadRequestException, NotFoundException, etc.) from services
+- HTTP exceptions belong in **controllers only**
+
+### Logger
+
+- **Never use** `private readonly logger = new Logger(ServiceName.name)`
+- Logger must be **injected** via constructor
+
+### Service Instantiation
+
+- **No `new ClassName()`** in services
+- Use `@Inject` or `plainToInstance` instead
+- Config must be injected: `@Inject(InfraConfig.KEY) private readonly config: ConfigType<typeof InfraConfig>`
+
+### EnsureRequestContext
+
+- If using `@EnsureRequestContext()`, constructor must have `entityManager: EntityManager` parameter
+
+## MikroORM Entities
+
+### @Property Decorator
+
+All `@Property` must include: `type`, `name`, `nullable`
+
+```typescript
+@Property({ type: 'string', name: 'location_title', nullable: true })
+```
+
+### AggregateRoot
+
+Entities extending `AggregateRoot` must have `forceConstructor: true`:
+
+```typescript
+@Entity({ tableName: 'catches', forceConstructor: true })
+export class CatchEntity extends AggregateRoot { ... }
+```
+
+### Timestamps
+
+All timestamps in migrations must be `with time zone`
+
+## DTOs
+
+### Response DTOs
+
+- Class must have `@Exclude()` decorator
+- All fields must have `@Expose()` decorator
+- Include Swagger examples and descriptions
+
+### plainToInstance
+
+Always include `enableImplicitConversion: true`:
+
+```typescript
+plainToInstance(MyPayload, data, { enableImplicitConversion: true });
+```
+
+## Events
+
+- **No constructors** in event classes
+- Create via `plainToInstance`
+
+## Configuration
+
+- Kafka params (clientId, consumerGroupId, brokers, SSL) must be in config
+- All `.env-docker-compose-sample` vars must be in `.helm/values.dev.yaml` and `.helm/values.production.yaml`
+- Helm values syntax: `PARAM: VALUE` (not `PARAM=VALUE`)
+
+## Package Version
+
+- Always increment `version` in `package.json` before PR

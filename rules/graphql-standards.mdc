@@ -1,0 +1,73 @@
+---
+alwaysApply: true
+---
+# GraphQL Standards
+
+> These rules apply only to GraphQL projects
+
+## Naming Conventions
+
+### Input Types
+
+- Must end with `MutationInput` or `SortInput`
+
+```typescript
+@InputType()
+export class CreateUserMutationInput { ... }
+```
+
+### ConnectionArgs
+
+- Classes ending with `ConnectionArgs` must extend `ConnectionArgs`
+
+```typescript
+export class UsersConnectionArgs extends ConnectionArgs { ... }
+```
+
+## File Organization
+
+### Mutations
+
+- Must be in `{module}/mutations/` directory
+- `*MutationInput` and `*MutationPayload` types must be declared in the same file
+
+### Resolvers
+
+- Must be in `{module}/resolvers/` directory
+- No duplicate resolver names in project
+
+### @Resolver Decorator
+
+- In mutation classes without `@ResolveField()`: use `@Resolver()` without type parameter
+- Type parameter only allowed when class has `@ResolveField()` with `@Parent()`
+
+## Descriptions Required
+
+### @ObjectType
+
+```typescript
+@ObjectType({ description: 'User profile information' })
+```
+
+### @Mutation
+
+```typescript
+@Mutation(() => UserPayload, { description: 'Creates a new user' })
+```
+
+### @Field
+
+```typescript
+@Field({ description: 'User creation timestamp' })
+```
+
+Exception: Self-explanatory fields like `email`, `id` don't need descriptions
+
+## Mutation Return Types
+
+- All mutations must return `*MutationPayload` with `errors` field
+
+## Pagination
+
+- Use `ConnectionArgs` for pagination
+- Define defaults and limits
